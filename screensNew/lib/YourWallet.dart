@@ -107,14 +107,21 @@ class MyWalletState extends State<YourWalletPage> {
                         ),
                       ),
                     ),
-                    Container(
-                      margin: EdgeInsets.only(
-                          left: 100, right: 0, top: 40, bottom: 10),
-                      child: Text(
-                        "My Wallet",
-                        style: TextStyle(
-                          fontSize: 24,
-                          color: Colors.white,
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 30.0),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "My Wallet",
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontFamily: 'comic3d',
+                                color: Colors.white,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
@@ -192,7 +199,10 @@ class MyWalletState extends State<YourWalletPage> {
                                 left: 20, right: 0, top: 0, bottom: 10),
                             child: Text(
                               "Your Balance",
-                              style: TextStyle(fontSize: 22),
+                              style: TextStyle(
+                                fontSize: 20,
+                                fontFamily: 'comic3d',
+                              ),
                             )),
                       ],
                     ),
@@ -208,7 +218,9 @@ class MyWalletState extends State<YourWalletPage> {
                             child: Text(
                               "500",
                               style: TextStyle(
-                                  fontSize: 24, color: Color(0xFF25AAE1)),
+                                  fontSize: 20,
+                                  fontFamily: 'comic3d',
+                                  color: Color(0xFF25AAE1)),
                             )),
                       ],
                     ),
@@ -222,8 +234,10 @@ class MyWalletState extends State<YourWalletPage> {
                           left: 30, right: 0, top: 30, bottom: 10),
                       child: Text(
                         "How KUDZOKA PAY works?",
-                        style:
-                            TextStyle(fontSize: 18, color: Color(0xFF000000)),
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontFamily: 'comic3d',
+                            color: Color(0xFF000000)),
                       )),
                 ],
               ),
@@ -263,7 +277,9 @@ class MyWalletState extends State<YourWalletPage> {
                               child: Text(
                                 "Add credit through a voucher \ncode ",
                                 style: TextStyle(
-                                    fontSize: 18, color: Color(0xFF25AAE1)),
+                                    fontSize: 20,
+                                    fontFamily: 'comic3d',
+                                    color: Color(0xFF25AAE1)),
                               )),
                         ),
                         Container(
@@ -316,7 +332,9 @@ class MyWalletState extends State<YourWalletPage> {
                               child: Text(
                                 "Send credit ",
                                 style: TextStyle(
-                                    fontSize: 18, color: Color(0xFF25AAE1)),
+                                    fontSize: 20,
+                                    fontFamily: 'comic3d',
+                                    color: Color(0xFF25AAE1)),
                               )),
                         ),
                         Container(

@@ -150,7 +150,10 @@ class MenuScreen extends StatelessWidget {
                       },
                       title: Text(
                         item.title,
-                        style: TextStyle(fontSize: 15, color: Colors.white),
+                        style: TextStyle(
+                            fontSize: 25,
+                            color: Colors.white,
+                            fontFamily: 'bradley'),
                       ),
                     );
                   }).toList(),
